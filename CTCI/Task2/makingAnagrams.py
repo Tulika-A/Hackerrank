@@ -27,7 +27,7 @@ if __name__ == '__main__':
         count_occurences_b[l] = b.count(l)     ##Storing the count of occurences of elements in b
       
         
-    ## Counting the elements by checking common elements ad considering the difference and adding     ## the rest of the elements     
+    ## Counting the elements by checking common elements ad considering the difference and adding the rest of the elements     
     for key in count_ocurrences_a:             
         if key in b:
             count = count + abs(count_ocurrences_a[key] - count_occurences_b[key])
